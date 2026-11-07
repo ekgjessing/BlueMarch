@@ -5,3 +5,4 @@ dist
 lyd/
 video/*.mp4
 video/*.png
+video/*.wav

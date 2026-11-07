@@ -1,0 +1,1463 @@
+{
+ "asOf": "2026-11-07",
+ "note": "Governor/Senate from Wikipedia + NBC results pages (not AP directly). House counts from NBC all-races page. Medium confidence overall: FL House split, Tennessee TN-4 conflict, and non-2026 senators (from memory plus partial Wikipedia list) are weakest. Kansas governor and MS Senate uncalled. MN and TN gain governors who vacate Senate seats.",
+ "states": {
+  "AL": {
+   "name": "Alabama",
+   "governor": {
+    "name": "Tommy Tuberville",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Barry Moore",
+     "party": "R"
+    },
+    {
+     "name": "Katie Britt",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 2,
+    "R": 5,
+    "uncalled": 0
+   },
+   "notes": "Tuberville becomes governor, Senate seat won by Barry Moore.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "AR": {
+   "name": "Arkansas",
+   "governor": {
+    "name": "Sarah Huckabee Sanders",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Tom Cotton",
+     "party": "R"
+    },
+    {
+     "name": "John Boozman",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 0,
+    "R": 4,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "AZ": {
+   "name": "Arizona",
+   "governor": {
+    "name": "Katie Hobbs",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Mark Kelly",
+     "party": "D"
+    },
+    {
+     "name": "Ruben Gallego",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 5,
+    "R": 3,
+    "uncalled": 1
+   },
+   "notes": "1 House race uncalled.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "CA": {
+   "name": "California",
+   "governor": {
+    "name": "Xavier Becerra",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Alex Padilla",
+     "party": "D"
+    },
+    {
+     "name": "Adam Schiff",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 46,
+    "R": 2,
+    "uncalled": 4
+   },
+   "notes": "4 House races uncalled.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "CO": {
+   "name": "Colorado",
+   "governor": {
+    "name": "Phil Weiser",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "John Hickenlooper",
+     "party": "D"
+    },
+    {
+     "name": "Michael Bennet",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 6,
+    "R": 1,
+    "uncalled": 1
+   },
+   "notes": "1 House race uncalled.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "CT": {
+   "name": "Connecticut",
+   "governor": {
+    "name": "Ned Lamont",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Richard Blumenthal",
+     "party": "D"
+    },
+    {
+     "name": "Chris Murphy",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 5,
+    "R": 0,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "DE": {
+   "name": "Delaware",
+   "governor": {
+    "name": "Matt Meyer",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Chris Coons",
+     "party": "D"
+    },
+    {
+     "name": "Lisa Blunt Rochester",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 1,
+    "R": 0,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "FL": {
+   "name": "Florida",
+   "governor": {
+    "name": "Byron Donalds",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Rick Scott",
+     "party": "R"
+    },
+    {
+     "name": "Ashley Moody",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 7,
+    "R": 17,
+    "uncalled": 4
+   },
+   "notes": "4 House races uncalled per NBC (e.g. FL-9 Soto narrow lead, FL-7 Dalton vs Elijah); Wikipedia state page not updated. Low confidence on D/R split.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "GA": {
+   "name": "Georgia",
+   "governor": {
+    "name": "Keisha Lance Bottoms",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Jon Ossoff",
+     "party": "D"
+    },
+    {
+     "name": "Raphael Warnock",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 5,
+    "R": 9,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "IA": {
+   "name": "Iowa",
+   "governor": {
+    "name": "Rob Sand",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Josh Turek",
+     "party": "D"
+    },
+    {
+     "name": "Chuck Grassley",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 3,
+    "R": 1,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "ID": {
+   "name": "Idaho",
+   "governor": {
+    "name": "Brad Little",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Jim Risch",
+     "party": "R"
+    },
+    {
+     "name": "Mike Crapo",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 0,
+    "R": 2,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "IL": {
+   "name": "Illinois",
+   "governor": {
+    "name": "JB Pritzker",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Juliana Stratton",
+     "party": "D"
+    },
+    {
+     "name": "Tammy Duckworth",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 14,
+    "R": 3,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "IN": {
+   "name": "Indiana",
+   "governor": {
+    "name": "Mike Braun",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Todd Young",
+     "party": "R"
+    },
+    {
+     "name": "Jim Banks",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 3,
+    "R": 6,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "KS": {
+   "name": "Kansas",
+   "governor": {
+    "name": "Uncalled: Cindy Holscher (D) vs Ty Masterson (R)",
+    "party": "?",
+    "leader": "D"
+   },
+   "senators": [
+    {
+     "name": "Adam Hamilton",
+     "party": "D"
+    },
+    {
+     "name": "Jerry Moran",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 1,
+    "R": 3,
+    "uncalled": 0
+   },
+   "notes": "Governor uncalled: Holscher (D) 50.3 vs Masterson (R) 49.7 per Wikipedia (not confirmed by an outlet call).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "KY": {
+   "name": "Kentucky",
+   "governor": {
+    "name": "Andy Beshear",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Andy Barr",
+     "party": "R"
+    },
+    {
+     "name": "Rand Paul",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 2,
+    "R": 4,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "LA": {
+   "name": "Louisiana",
+   "governor": {
+    "name": "Jeff Landry",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Julia Letlow",
+     "party": "R"
+    },
+    {
+     "name": "John Kennedy",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 1,
+    "R": 3,
+    "uncalled": 2
+   },
+   "notes": "Runoffs Dec 12 in LA-5 (Moore D vs Firment R) and LA-6 (Banks D vs Miguez R).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "MA": {
+   "name": "Massachusetts",
+   "governor": {
+    "name": "Maura Healey",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Ed Markey",
+     "party": "D"
+    },
+    {
+     "name": "Elizabeth Warren",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 9,
+    "R": 0,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "MD": {
+   "name": "Maryland",
+   "governor": {
+    "name": "Wes Moore",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Chris Van Hollen",
+     "party": "D"
+    },
+    {
+     "name": "Angela Alsobrooks",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 7,
+    "R": 1,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "ME": {
+   "name": "Maine",
+   "governor": {
+    "name": "Hannah Pingree",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Troy Jackson",
+     "party": "D"
+    },
+    {
+     "name": "Angus King",
+     "party": "I-D"
+    }
+   ],
+   "house": {
+    "D": 1,
+    "R": 0,
+    "uncalled": 1
+   },
+   "notes": "ME-2 uncalled: LePage (R) 49.9 vs Dunlap (D) 48.3 at 97.8% reporting; leader R.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "MI": {
+   "name": "Michigan",
+   "governor": {
+    "name": "Jocelyn Benson",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Abdul El-Sayed",
+     "party": "D"
+    },
+    {
+     "name": "Elissa Slotkin",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 9,
+    "R": 4,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "MN": {
+   "name": "Minnesota",
+   "governor": {
+    "name": "Amy Klobuchar",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Peggy Flanagan",
+     "party": "D"
+    },
+    {
+     "name": "Amy Klobuchar",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 4,
+    "R": 3,
+    "uncalled": 1
+   },
+   "notes": "Gov-elect Klobuchar leaves Senate seat in Jan 2027: vacancy/appointee TBD (listed as Klobuchar for now). 1 House race uncalled. Wikipedia says 5-3 DFL, NBC 4-3-1.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "MO": {
+   "name": "Missouri",
+   "governor": {
+    "name": "Mike Kehoe",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Josh Hawley",
+     "party": "R"
+    },
+    {
+     "name": "Eric Schmitt",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 3,
+    "R": 5,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "MS": {
+   "name": "Mississippi",
+   "governor": {
+    "name": "Tate Reeves",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Roger Wicker",
+     "party": "R"
+    },
+    {
+     "name": "Uncalled: Scott Colom (D) vs Cindy Hyde-Smith (R)",
+     "party": "?",
+     "leader": "D"
+    }
+   ],
+   "house": {
+    "D": 1,
+    "R": 3,
+    "uncalled": 0
+   },
+   "notes": "Senate uncalled: Colom (D) 49.1 vs Hyde-Smith (R) 48.8.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "MT": {
+   "name": "Montana",
+   "governor": {
+    "name": "Greg Gianforte",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Kurt Alme",
+     "party": "R"
+    },
+    {
+     "name": "Steve Daines",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 1,
+    "R": 1,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "NC": {
+   "name": "North Carolina",
+   "governor": {
+    "name": "Josh Stein",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Roy Cooper",
+     "party": "D"
+    },
+    {
+     "name": "Ted Budd",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 9,
+    "R": 2,
+    "uncalled": 3
+   },
+   "notes": "3 House races uncalled.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "ND": {
+   "name": "North Dakota",
+   "governor": {
+    "name": "Kelly Armstrong",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "John Hoeven",
+     "party": "R"
+    },
+    {
+     "name": "Kevin Cramer",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 0,
+    "R": 1,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "NE": {
+   "name": "Nebraska",
+   "governor": {
+    "name": "Jim Pillen",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Pete Ricketts",
+     "party": "R"
+    },
+    {
+     "name": "Deb Fischer",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 1,
+    "R": 2,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "NH": {
+   "name": "New Hampshire",
+   "governor": {
+    "name": "Kelly Ayotte",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Chris Pappas",
+     "party": "D"
+    },
+    {
+     "name": "Maggie Hassan",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 2,
+    "R": 0,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "NJ": {
+   "name": "New Jersey",
+   "governor": {
+    "name": "Mikie Sherrill",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Cory Booker",
+     "party": "D"
+    },
+    {
+     "name": "Andy Kim",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 11,
+    "R": 1,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "NM": {
+   "name": "New Mexico",
+   "governor": {
+    "name": "Deb Haaland",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Ben Ray Luj\u00e1n",
+     "party": "D"
+    },
+    {
+     "name": "Martin Heinrich",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 3,
+    "R": 0,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "NV": {
+   "name": "Nevada",
+   "governor": {
+    "name": "Aaron Ford",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Catherine Cortez Masto",
+     "party": "D"
+    },
+    {
+     "name": "Jacky Rosen",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 4,
+    "R": 0,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "NY": {
+   "name": "New York",
+   "governor": {
+    "name": "Kathy Hochul",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Chuck Schumer",
+     "party": "D"
+    },
+    {
+     "name": "Kirsten Gillibrand",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 20,
+    "R": 6,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "OH": {
+   "name": "Ohio",
+   "governor": {
+    "name": "Amy Acton",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Sherrod Brown",
+     "party": "D"
+    },
+    {
+     "name": "Bernie Moreno",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 8,
+    "R": 7,
+    "uncalled": 0
+   },
+   "notes": "Special Senate: Brown (D) defeated appointee Husted.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "OK": {
+   "name": "Oklahoma",
+   "governor": {
+    "name": "Mike Mazzei",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Kevin Hern",
+     "party": "R"
+    },
+    {
+     "name": "James Lankford",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 0,
+    "R": 5,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "OR": {
+   "name": "Oregon",
+   "governor": {
+    "name": "Tina Kotek",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Jeff Merkley",
+     "party": "D"
+    },
+    {
+     "name": "Ron Wyden",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 5,
+    "R": 1,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "PA": {
+   "name": "Pennsylvania",
+   "governor": {
+    "name": "Josh Shapiro",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Dave McCormick",
+     "party": "R"
+    },
+    {
+     "name": "John Fetterman",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 11,
+    "R": 6,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "RI": {
+   "name": "Rhode Island",
+   "governor": {
+    "name": "Helena Foulkes",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Jack Reed",
+     "party": "D"
+    },
+    {
+     "name": "Sheldon Whitehouse",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 2,
+    "R": 0,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "SC": {
+   "name": "South Carolina",
+   "governor": {
+    "name": "Alan Wilson",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Annie Andrews",
+     "party": "D"
+    },
+    {
+     "name": "Tim Scott",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 2,
+    "R": 4,
+    "uncalled": 1
+   },
+   "notes": "1 House race uncalled.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "SD": {
+   "name": "South Dakota",
+   "governor": {
+    "name": "Larry Rhoden",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Mike Rounds",
+     "party": "R"
+    },
+    {
+     "name": "John Thune",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 0,
+    "R": 1,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "TN": {
+   "name": "Tennessee",
+   "governor": {
+    "name": "Marsha Blackburn",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Bill Hagerty",
+     "party": "R"
+    },
+    {
+     "name": "Marsha Blackburn",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 0,
+    "R": 8,
+    "uncalled": 1
+   },
+   "notes": "TN-9 uncalled: Taylor (R) 49.6 vs Pearson (D) 48.5. Conflict: Wikipedia lists TN-4 as D gain (Broderick) but NBC shows 0 D, 8 R; NBC used. Gov-elect Blackburn leaves Senate seat Jan 2027: vacancy/appointee TBD (listed as Blackburn).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "TX": {
+   "name": "Texas",
+   "governor": {
+    "name": "Gina Hinojosa",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "James Talarico",
+     "party": "D"
+    },
+    {
+     "name": "Ted Cruz",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 14,
+    "R": 24,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "UT": {
+   "name": "Utah",
+   "governor": {
+    "name": "Spencer Cox",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Mike Lee",
+     "party": "R"
+    },
+    {
+     "name": "John Curtis",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 1,
+    "R": 3,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "VA": {
+   "name": "Virginia",
+   "governor": {
+    "name": "Abigail Spanberger",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Mark Warner",
+     "party": "D"
+    },
+    {
+     "name": "Tim Kaine",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 8,
+    "R": 3,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "VT": {
+   "name": "Vermont",
+   "governor": {
+    "name": "Phil Scott",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Bernie Sanders",
+     "party": "I-D"
+    },
+    {
+     "name": "Peter Welch",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 1,
+    "R": 0,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "WA": {
+   "name": "Washington",
+   "governor": {
+    "name": "Bob Ferguson",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Patty Murray",
+     "party": "D"
+    },
+    {
+     "name": "Maria Cantwell",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 8,
+    "R": 1,
+    "uncalled": 1
+   },
+   "notes": "1 House race uncalled.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "WI": {
+   "name": "Wisconsin",
+   "governor": {
+    "name": "David Crowley",
+    "party": "D"
+   },
+   "senators": [
+    {
+     "name": "Ron Johnson",
+     "party": "R"
+    },
+    {
+     "name": "Tammy Baldwin",
+     "party": "D"
+    }
+   ],
+   "house": {
+    "D": 4,
+    "R": 4,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "WV": {
+   "name": "West Virginia",
+   "governor": {
+    "name": "Patrick Morrisey",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Shelley Moore Capito",
+     "party": "R"
+    },
+    {
+     "name": "Jim Justice",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 0,
+    "R": 2,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  },
+  "WY": {
+   "name": "Wyoming",
+   "governor": {
+    "name": "Eric Barlow",
+    "party": "R"
+   },
+   "senators": [
+    {
+     "name": "Harriet Hageman",
+     "party": "R"
+    },
+    {
+     "name": "John Barrasso",
+     "party": "R"
+    }
+   ],
+   "house": {
+    "D": 0,
+    "R": 1,
+    "uncalled": 0
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "https://www.nbcnews.com/politics/2026-elections/house-results",
+    "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_senators",
+    "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+   ]
+  }
+ }
+}

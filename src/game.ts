@@ -40,15 +40,6 @@ export function stateColor(s: StateInfo, d: Difficulty): Color {
   return 'red'
 }
 
-/** Human-readable list of the Democrats that make a state blue. */
-export function democrats(s: StateInfo): string[] {
-  const out: string[] = []
-  if (isDem(s.governor.party)) out.push(`Gov. ${s.governor.name}`)
-  for (const x of s.senators) if (isDem(x.party)) out.push(`Sen. ${x.name}${x.party === 'I-D' ? ' (I)' : ''}`)
-  if (s.house.D > 0) out.push(`${s.house.D} of ${s.house.D + s.house.R + s.house.uncalled} House seats`)
-  return out
-}
-
 function hash(str: string): number {
   let h = 2166136261
   for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619) }

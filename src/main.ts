@@ -1,7 +1,7 @@
 import './style.css'
 import officialsJson from './data/officials.json'
 import { ADJ, LABEL_NUDGE, MAP_STATES } from './map'
-import { DIFFICULTY, Game, democrats, type Difficulty, type Officials } from './game'
+import { DIFFICULTY, Game, type Difficulty, type Official, type Officials, type Party, type StateInfo } from './game'
 import { GOAL, NAME, START } from './states'
 import { CLIPS, LOSS_CLIP, type Clip } from './clips'
 
@@ -86,6 +86,7 @@ for (const s of MAP_STATES) {
 function onState(code: string) {
   const s = game.s
   if (s.status === 'start') return void (game.startOptions().includes(code) && arrive(game.start(code)))
+  if (s.status === 'won' || s.status === 'lost') return showInfo(code)
   if (s.status !== 'playing') return
   if (mode === 'flag') { game.toggleFlag(code); return render() }
   if (mode === 'peek') {
@@ -101,7 +102,10 @@ function onState(code: string) {
     mode = 'move'
     return arrive(m)
   }
-  if (!game.moveOptions().includes(code)) return toast(`${NAME[code]} does not border ${NAME[s.current!]}.`)
+  if (!game.moveOptions().includes(code)) {
+    if (s.revealed[code]) return showInfo(code)
+    return toast(`${NAME[code]} does not border ${NAME[s.current!]}.`)
+  }
   if (s.revealed[code] === 'red' && !confirm(`${NAME[code]} is red. March in anyway?`)) return
   arrive(game.step(code))
 }
@@ -138,11 +142,44 @@ function closeModal() {
   body.querySelector('video')?.pause()
   if (modal.open) modal.close()
 }
-modal.addEventListener('click', (e) => { if (e.target === modal && game.s.status === 'playing') closeModal() })
+modal.addEventListener('click', (e) => { if (e.target === modal && game.s.status !== 'start') closeModal() })
 
 const clipHtml = (c: Clip) => `
   <video src="${c.src}" playsinline controls preload="auto"></video>
   <p class="quote">${esc(c.quote)}</p><p class="credit">${esc(c.credit)}</p>`
+
+const PARTY: Record<Party, [string, string]> = {
+  D: ['D', 'Democrat'], R: ['R', 'Republican'], 'I-D': ['I', 'Independent (sides with Democrats)'],
+  'I-R': ['I', 'Independent (sides with Republicans)'], I: ['I', 'Independent'], '?': ['?', 'Too close to call'],
+}
+const side = (p: Party) => (p === 'D' || p === 'I-D' ? 'd' : p === 'R' || p === 'I-R' ? 'r' : 'x')
+const person = (o: Official) => `<span class="pp ${side(o.party)}" title="${PARTY[o.party][1]}"><b>${PARTY[o.party][0]}</b>${esc(o.name)}</span>`
+
+/** Governor, U.S. Senate and U.S. House at a glance, each marked D or R. */
+function breakdownHtml(info: StateInfo) {
+  const h = info.house
+  const seats = h.D + h.R + h.uncalled
+  const seg = (n: number, c: string) => (n ? `<i class="${c}" style="flex:${n}"></i>` : '')
+  const houseSide = h.D * 2 > seats ? 'd' : h.R * 2 > seats ? 'r' : 'x'
+  const houseText = [h.D && `${h.D} D`, h.R && `${h.R} R`, h.uncalled && `${h.uncalled} uncalled`].filter(Boolean).join(' · ')
+  return `<dl class="breakdown">
+    <div><dt>Governor</dt><dd>${person(info.governor)}</dd></div>
+    <div><dt>U.S. Senate</dt><dd>${info.senators.map(person).join('')}</dd></div>
+    <div><dt>U.S. House</dt><dd class="house ${houseSide}">
+      <span class="bar">${seg(h.D, 'd')}${seg(h.uncalled, 'x')}${seg(h.R, 'r')}</span>
+      <span>${houseText} <small>of ${seats} seat${seats === 1 ? '' : 's'}</small></span></dd></div>
+  </dl>`
+}
+
+function showInfo(code: string) {
+  const rev = game.s.revealed[code] ?? game.outcome(code)
+  openModal(`
+    <h2>${esc(NAME[code])} <span class="tag ${rev}">${rev === 'blue' ? 'Blue' : 'Red'}</span></h2>
+    ${breakdownHtml(game.info(code))}
+    <p class="small">Rules: ${esc(DIFFICULTY[game.s.difficulty].rule)}</p>
+    <div class="actions"><button class="primary" data-act="close">Close</button></div>`)
+  wire()
+}
 
 function showState(code: string, isNew: boolean, gamble: boolean) {
   const info = game.info(code)
@@ -150,7 +187,7 @@ function showState(code: string, isNew: boolean, gamble: boolean) {
   const won = game.s.status === 'won'
   openModal(`
     <h2>${esc(NAME[code])} <span class="tag blue">${gamble ? 'Called for the blues!' : 'Blue'}</span></h2>
-    <p class="who">${democrats(info).map(esc).join(' · ') || 'Democrats on the ballot'}</p>
+    ${breakdownHtml(info)}
     ${clip ? clipHtml(clip) : `<div class="card-soon"><strong>${esc(NAME[code])}</strong><span>Puppet clip coming soon</span></div>`}
     ${isNew ? `<p class="unlock">Unlocked ${unlocked.size} / 48 states</p>` : ''}
     ${won ? winHtml() : '<div class="actions"><button class="primary" data-act="close">Keep marching</button></div>'}
@@ -169,6 +206,7 @@ function showLoss(code: string) {
   openModal(`
     <h2>${esc(NAME[code])} <span class="tag red">Red</span></h2>
     <p class="who">No Democrats in the top jobs. You lost by a landslide.</p>
+    ${breakdownHtml(game.info(code))}
     ${clipHtml(LOSS_CLIP)}
     <div class="actions">
       ${canRecount ? '<button class="primary" data-act="recount">Demand a recount</button>' : ''}
